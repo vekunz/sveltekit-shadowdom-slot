@@ -1,0 +1,25 @@
+{
+	"name": "sveltekit-shadowdom-slot",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "http-server build"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "3.0.1",
+		"@sveltejs/kit": "2.5.1",
+		"@sveltejs/vite-plugin-svelte": "3.0.2",
+		"svelte": "4.2.12",
+		"svelte-check": "3.6.4",
+		"tslib": "2.6.2",
+		"typescript": "5.3.3",
+		"vite": "5.1.4",
+		"vite-plugin-iso-import": "1.1.0"
+	},
+	"dependencies": {
+		"http-server": "14.1.1"
+	},
+	"type": "module"
+}
